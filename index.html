@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1, user-scalable=no"/>
+    <title>Portfolio</title>
+    <link rel="icon" href="/icon.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/header.css" />
+    
+    <script
+      src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"
+      defer
+    ></script>
+    <script src="/index.js" defer></script>
+    <script src="/particle.js" defer></script>
+    <script src="/shrink.js" defer></script>
+  </head>
+
+  <body id="begin">
+    <canvas id="c"></canvas>
+    <!-- nav -->
+    <nav class="nav-bar">
+      <div class="nav-logo">
+        <img src="/logo_rgb.png" alt="logo" id="logo"/>
+      </div>
+      <div class="nav-items">
+        <a href="#begin" class="home-btn">Home</a>
+        <a href="#about" class="about-btn">About</a>
+        <a href="#skills" class="skills-btn">Skills</a>
+        <a href="#projects" class="projects-btn">Projects</a>
+        <a href="#contact" class="contact-btn">Contact</a>
+      </div>
+      <div class="ham-btn">
+        <span class="span1"></span>
+        <span class="span2"></span> 
+        <span class="span3"></span>
+      </div>
+      <div class="ham-items">
+        <a href="#begin" class="home-btn">Home</a>
+        <a href="#about" class="about-btn">About</a>
+        <a href="#skills" class="skills-btn">Skills</a>
+        <a href="#projects" class="projects-btn">Projects</a>
+        <a href="#contact" class="contact-btn">Contact</a>
+      </div>
+    </nav>
+    <header>
+      <!-- header -->
+
+      <div class="header-box" id="home">
+        <div class="header-content">
+          <h1>Hey guys... I am Shabika Fathima</h1>
+          <p>I am <span class="auto-type"></span></p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- about -->
+
+      <div class="about" id="about">
+        <h1 id="about-title" class="hide">About</h1>
+        <div class="about-after">
+          <span class="about-span"></span>
+          <p>What am I</p>
+          <span class="about-span"></span>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="/shab.jpeg" alt="mypic"  class="mypic"/>
+          </div>
+          <div class="about-text">
+            <p>
+              I'm Shabika, or you can call me Shabzzzzzzzz 😪. To tell you about myself, I'm an energetic, enthusiastic, and diligent person aspiring to become a top-notch full-stack developer and a fellow blockchain enthusiast.<br><br>
+              Ever since my high school, I've been interested in the field of computer science and programming. I love solving problems, even though I realized we have to debug them 😢. But then again, "What is life without some risk?" I find coding to be fun as it always makes me think outside the box. Coding may be nerve-wracking at times, but the thought of achieving error-free code is what helps me sleep at night 😀.<br><br>
+              Oh yeah, apart from coding and other activities, my hobbies include reading books, manga, and watching anime. My all-time favorite book is Harry Potter, and I'm a die-hard One Piece fan yohohohoo 💀.
+            </p>
+            <a href="/logo.png" download>View Profile</a>
+          </div>
+        </div>
+      </div>
+      <!-- skills -->
+      <div class="skills" id="skills">
+        <h1 id="skills-title" class="hide">Skills</h1>
+        <div class="skills-after">
+          <span class="skills-span"></span>
+          <p>My learning</p>
+          <span class="skills-span"></span>
+        </div>
+        <div class="skills-content">
+          <div class="skills-text">
+            <h3>My Techniques</h3>
+            <p>
+              I’m a frontend developer with a good understanding of HTML, CSS and JavaScript. I’m currently learning ReactJs 🤓. I have a strong knowledge in Java (OOP), DSA and C/C++. I also have some experience in designing UI interfaces in tools such as figma and canva.
+            </p>
+          </div>
+
+          <div class="skills-progress">
+            <div class="progress-box">
+              <div class="progress-text">
+                <p>HTML and CSS</p>
+                <p>70%</p>
+              </div>
+              <div class="progress-bar-outer">
+                <div class="progress-bar-inner" style="width: 80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- project -->
+      <div class="projects" id="projects">
+        <h1 id="projects-title" class="hide">Projects</h1>
+        <div class="projects-after">
+          <span class="projects-span"></span>
+          <p>Mundane man</p>
+          <span class="projects-span"></span>
+        </div>
+        <div class="projects-content">
+          <div class="projects-card">
+            <div class="project-image" role="link">
+              <img src="./shadow1.jpg" />
+            </div>
+            <div class="project-text">
+              <h3>Cid Kagenou</h3>
+              <p>ANTI-HERO</p>
+            </div>
+          </div>
+          <div class="projects-card">
+            <div class="project-image" role="link">
+              <img src="./shadow2.jpg" />
+            </div>
+            <div class="project-text">
+              <h3>Cid Kagenou</h3>
+              <p>ANTI-HERO</p>
+            </div>
+          </div>
+          <div class="projects-card">
+            <div class="project-image" role="link">
+              <img src="./shawdow3.jpg" />
+            </div>
+            <div class="project-text">
+              <h3>Cid Kagenou</h3>
+              <p>ANTI-HERO</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="contact" id="contact">
+        <h1 id="contact-title" class="hide">Contact</h1>
+        <div class="contact-after">
+          <span class="contact-span"></span>
+          <p>Blank</p>
+          <span class="contact-span"></span>
+        </div>
+        <div class="contact-content">
+          <p><i class="fa-solid fa-user"></i>Shabika Fathima</p>
+          <p><i class="fa-solid fa-envelope"></i>shabikafs@gmail.com</p>
+          <p>
+            <i class="fa-sharp fa-solid fa-location-dot"></i>Chennai, Tamil
+            Nadu, India
+          </p>
+        </div>
+        <a class="email-btn" href="mailto:shabikafs@gmail.com">Send E-mail</a>
+      </div>
+      <!-- <div class="content">
+        <div class="footer-bottom">
+          <a class="footer-arrow" href="#begin"><i class="fa-solid fa-angle-up"></i></a>
+    
+          <div class="footer-content">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="footer-line"></div>
+            <p class="copyright">
+              <i class="fa-regular fa-copyright"></i> 2023 - Srihari V
+            </p>
+          </div>
+        </div>
+      </div> -->
+      <div class="footer">
+      <svg viewBox="0 0 120 28">
+        <defs> 
+            <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="
+                  1 0 0 0 0  
+                  0 1 0 0 0  
+                  0 0 1 0 0  
+                  0 0 0 13 -9" result="goo" />
+              <xfeBlend in="SourceGraphic" in2="goo" />
+            </filter>
+            <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+          </defs> 
+
+          <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+          <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+        
+        
+        <g class="gooeff" filter="url(#goo)">
+          
+          <circle class="drop drop1" cx="1.2" cy="5.4" r="8.8"  />
+          <circle class="drop drop2" cx="5.2" cy="5.1" r="7.5"  />
+          <circle class="drop drop3" cx="10.2" cy="5.3" r="9.2"  />
+            <circle class="drop drop4" cx="3.2" cy="5.4" r="8.8"  />
+          <circle class="drop drop5" cx="14.2" cy="5.1" r="7.5"  />
+          <circle class="drop drop6" cx="17.2" cy="4.8" r="9.2"  />
+          <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+        </g>  
+        </svg>
+        <div class="footer-content">
+            <div class="tags">
+              <ul>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+              </ul>
+            </div>
+            <div class="navigate">
+              <ul>
+                <li><a href="#begin">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+              </ul>
+            </div>
+            <div class="copyright">
+              <p>
+              <i class="fa-regular fa-copyright"></i>2023 SRIHARI & SHABS
+              </p>
+            </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+  </body>
+</html>
